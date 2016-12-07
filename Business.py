@@ -2,7 +2,6 @@
 import pandas as pd
 import os
 
-
 user_info = pd.read_csv('./train/user_info_train.txt', names=['ID', 'gender', 'career', 'education', 'marriage', 'hukou'])
 bank_detail = pd.read_csv('./train/bank_detail_train.txt', names=['ID', 'timestamp_bank', 'type', 'money', 'salary'])
 browse_history = pd.read_csv('./train/browse_history_train.txt', names=['ID', 'timestamp_browse', 'browse_data', 'browser_code'])
